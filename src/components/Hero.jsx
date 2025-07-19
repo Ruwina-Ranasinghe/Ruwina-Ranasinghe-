@@ -50,7 +50,7 @@ const Hero = () => {
             </p>
 
             {/* Resume Button with Matching Font */}
-            <a href="Ruwina Ranasinghe CV.pdf" download="RuwinaRanasinghe-Resume.pdf">
+            <a href="Ruvina_Ranasinghe_SE_Intern_CV.pdf" download="Ruvina_Ranasinghe_SE_Intern_CV.pdf">
               <button className="cursor-pointer flex items-center justify-between bg-gradient-to-l from-blue-500 to-purple-600 px-4 py-2 rounded-full text-white tracking-wider shadow-xl hover:from-purple-500 hover:to-blue-600 hover:scale-105 duration-500 hover:ring-1 mt-3 sm:mt-0 md:mt-6 lg:mt-10 w-fit text-[16px] sm:text-[18px] font-normal">
                 Resume
                 <svg
