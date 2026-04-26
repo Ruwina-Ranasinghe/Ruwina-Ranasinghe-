@@ -40,13 +40,10 @@
     "vite": "^4.1.0"
   },
   "reactSnap": {
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ],
-    "renderAfterDocumentEvent": "render-complete",
-    "inlineCss": true,
-    "minifyHtml": false,
-    "skipThirdPartyRequests": true
+    "source": "dist",
+    "destination": "dist",
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "skipThirdPartyRequests": true,
+    "inlineCss": false
   }
 }
