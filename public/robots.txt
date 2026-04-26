@@ -1,0 +1,7 @@
+# robots.txt — https://ruwina-ranasinghe.vercel.app/
+
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://ruwina-ranasinghe.vercel.app/sitemap.xml

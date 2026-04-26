@@ -13,6 +13,7 @@ import {
   Works,
   StarsCanvas
 } from "./components";
+import ClientOnly from "./components/ClientOnly.jsx";
 
 const App = () => {
   return (
@@ -28,14 +29,18 @@ const App = () => {
         <About />
         <div className='relative z-0'>
           <Experience />
+            <ClientOnly>
           <StarsCanvas />
+                </ClientOnly>
         </div>
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
+            <ClientOnly>
           <StarsCanvas />
+                </ClientOnly>
         </div>
       </div>
     </BrowserRouter>
